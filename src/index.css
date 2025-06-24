@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.demo {
+  color: #02030b;
+  color: #06071b;
+  color: #031457;
+  color: #043cc0;
+  color: #0450ff;
+  color: #636363;
+  color: #a5aabb;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Inter", sans-serif;
+  }
+  p,
+  a {
+    font-family: "Roboto", sans-serif;
+  }
+}
+@layer utilities {
+  .container {
+    @apply max-w-[1280px];
+  }
+  /* =========== Blaze animations ==================== */
+  .blaze {
+    animation: blazeAnimate 4s linear infinite;
+  }
+  @keyframes blazeAnimate {
+    0%,
+    50% {
+      left: -80%;
+    }
+    62% {
+      left: -40%;
+    }
+    85% {
+      left: 40%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+}
+.hamburger {
+  cursor: pointer;
+}
+.line {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+@layer components {
+  .container {
+    @apply mx-auto px-2 md:px-5;
+  }
+  .blue-gradient {
+    @apply from-light-blue to-main bg-gradient-to-l;
+  }
+}

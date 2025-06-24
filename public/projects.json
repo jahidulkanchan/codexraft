@@ -1,0 +1,38 @@
+[
+  {
+    "id": "001",
+    "projectName": "EduGenius",
+    "type": "(AI-Powered Course Management System)",
+    "details": "Edugenius is an AI-powered Course Management System built with the MERN stack. It offers a comprehensive platform for administrators, instructors, and learners to manage and engage with educational content seamlessly. Admins can oversee courses and users, instructors can create and manage course materials, and learners can explore, enroll, and track their progress. With clean UI, role-based dashboards, and future-ready features like AI recommendations, Edugenius makes online education smarter and more accessible.",
+    "image": "/project1.png",
+    "url": "https://edu-genius.vercel.app/",
+    "sourceCode": "https://github.com/tariqul420/EduGenius/tree/jahidul",
+    "challenge": "Integrating a role-based access control system and dynamic dashboards for each user type was complex. Managing different views and permissions while keeping the UI consistent across roles required thoughtful architecture and precise state management.",
+    "improvement": "Introduced a scalable authentication system using Firebase Auth combined with JWT, improving security and enabling seamless role-based login for Admins, Instructors, and Students.",
+    "technology": "Next.js, Tailwind CSS, ShadCN UI, MongoDB, Mongoose, Clerk, OpenAI API"
+  },
+  {
+    "id": "002",
+    "projectName": "Blog Beat",
+    "type": "(Blog Sharing Platform)",
+    "details": "This blog web application allows users to explore engaging content across categories like Technology, Travel, Sports, Entertainment, and Lifestyle. Users can add their own blogs, manage existing ones, and curate a personalized wishlist of their favorite posts. The platform aims to inspire, educate, and entertain while fostering a community where everyone can share and discover meaningful content. With a user-friendly interface and seamless navigation, it ensures a smooth and enjoyable reading and blogging experience.",
+    "image": "/project2.png",
+    "url": "https://blogsbeat.netlify.app",
+    "sourceCode": "https://github.com/jahidulkanchan/BlogsBeat",
+    "challenge": "Handling user-generated content effectively was a challenge. Implementing robust authentication, preventing spam submissions, and ensuring secure data handling were key concerns. Using Firebase authentication and MongoDB validation helped maintain security and content integrity.",
+    "improvement": "Improved content moderation by integrating AI-based spam detection, reducing unwanted content and enhancing user experience.",
+    "technology": "React.js, Node.js, MongoDB, Express.js, Firebase,Tailwindcss, Jwt"
+  },
+  {
+    "id": "003",
+    "projectName": "Gamer Zone",
+    "type": "(Gaming Review Website)",
+    "details": "Our gaming review website is a hub for gamers to share reviews, rate games, and create watchlists. With customizable themes, animated text, and full control over your content, it’s a dynamic platform designed to enhance your gaming experience and connect you with a passionate community. Users can explore trending games, discover hidden gems, and engage in discussions with fellow gamers. The platform also offers a seamless and visually immersive interface, making it easy to navigate and interact with game-related content.",
+    "image": "/project3.png",
+    "url": "https://gamerxone.netlify.app",
+    "sourceCode": "https://github.com/jahidulkanchan/GamerZone",
+    "challenge": "Implementing an engaging and interactive UI with dynamic animations and theme customization was a major challenge. Balancing performance while ensuring a smooth user experience required optimizing React rendering and using efficient state management.",
+    "improvement": "Optimized UI performance by implementing lazy loading for images and reducing unnecessary re-renders, enhancing page load speed.",
+    "technology": "React.js, Node.js, MongoDB, Express.js, Firebase,Tailwindcss, Jwt"
+  }
+]
