@@ -2,12 +2,10 @@ import { Link } from 'react-router-dom';
 import { MdRocketLaunch } from 'react-icons/md';
 const Banner = () => {
   return (
-    <section className="hero-section relative text-white overflow-hidden py-10" id="hero_section">
+    <section className="hero-section relative text-white overflow-hidden py-20" id="hero_section">
       <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 mx-auto hidden h-full w-full object-cover opacity-15 md:block" />
       <div className="via-icon-bg/30 absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-transparent to-transparent"></div>
-      <div className="bg-main/30 absolute bottom-0 left-0 -z-1 h-[250px] w-[250px] rounded-tr-full blur-3xl"></div>
       <div className="relative container flex flex-col-reverse items-center justify-between gap-4 overflow-hidden py-10 md:flex-row lg:min-h-[550px]">
-        <img src="./assets/sun-shine.png" alt="sun-shine" loading="lazy" className="absolute -top-[300px] -z-1 hidden animate-[fadePulse_6s_linear_infinite_1s] opacity-0 md:block" />
         <div className="left-content" data-aos="fade-In">
           <div className="border-icon-bg/30 to-main/20 from-card-bg relative mx-auto mb-3 flex w-fit items-center gap-2 overflow-hidden rounded-lg border bg-gradient-to-r px-4 py-2 md:mx-0">
             <div className="blaze bg-icon-bg/40 absolute -top-10 -left-10 h-30 w-10 rotate-45 blur-xl"></div>

@@ -1,25 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  // Set active nav link
-  useEffect(() => {
-    const currentPath = window.location.pathname;
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    navLinks.forEach((link) => {
-      if (link.getAttribute('href') === currentPath) {
-        const span = link.previousElementSibling;
-        if (span) {
-          span.classList.add('scale-x-100');
-        }
-        link.classList.add('text-white');
-      }
-    });
-  }, []);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -53,14 +37,8 @@ const Navbar = () => {
           </li>
           <li className="relative group">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/projects" className="nav-link hover:text-white text-base font-medium relative">
-              Projects
-            </Link>
-          </li>
-          <li className="relative group">
-            <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/about-us" className="nav-link hover:text-white text-base font-medium relative">
-              About Us
+            <Link to="/contact" className=" hover:text-white text-base font-medium relative">
+              Contact
             </Link>
           </li>
         </ul>
@@ -105,25 +83,25 @@ const Navbar = () => {
         <ul className="flex text-light-gray flex-col gap-4">
           <li className="relative group w-fit">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/" onClick={toggleMobileMenu} className="nav-link hover:text-white duration-150 text-base font-medium relative">
+            <Link to="/" onClick={toggleMobileMenu} className=" hover:text-white duration-150 text-base font-medium relative">
               Home
             </Link>
           </li>
           <li className="relative group w-fit">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/services" onClick={toggleMobileMenu} className="nav-link hover:text-white text-base font-medium relative">
+            <Link to="/services" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
               Services
             </Link>
           </li>
           <li className="relative group w-fit">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/projects" onClick={toggleMobileMenu} className="nav-link hover:text-white text-base font-medium relative">
+            <Link to="/projects" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
               Projects
             </Link>
           </li>
           <li className="relative group w-fit">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/about-us" onClick={toggleMobileMenu} className="nav-link hover:text-white text-base font-medium relative">
+            <Link to="/about-us" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
               About Us
             </Link>
           </li>
