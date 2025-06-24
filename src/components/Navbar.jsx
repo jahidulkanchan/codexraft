@@ -95,14 +95,8 @@ const Navbar = () => {
           </li>
           <li className="relative group w-fit">
             <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/projects" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
-              Projects
-            </Link>
-          </li>
-          <li className="relative group w-fit">
-            <span className="absolute w-full duration-300 scale-x-0 group-hover:scale-x-100 origin-center h-[2.5px] blue-gradient bottom-0"></span>
-            <Link to="/about-us" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
-              About Us
+            <Link to="/contact" onClick={toggleMobileMenu} className=" hover:text-white text-base font-medium relative">
+              Contact
             </Link>
           </li>
           <li>
