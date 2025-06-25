@@ -39,10 +39,6 @@ const Footer = () => {
 
   return (
     <footer id="footer_section" className="relative overflow-hidden pt-8">
-      {/* Background Blur Effects */}
-      <div className="bg-main/50 absolute -top-5 -right-5 -z-[1] h-[120px] w-[120px] blur-3xl"></div>
-      <div className="bg-main/50 absolute -bottom-5 -left-5 -z-[1] h-[120px] w-[120px] blur-3xl"></div>
-
       <div className="relative container">
         <div className="flex flex-col justify-between md:flex-row md:gap-8 lg:gap-0">
           {/* Logo and Company Info */}

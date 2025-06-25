@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import { MdRocketLaunch } from 'react-icons/md';
 const Banner = () => {
   return (
-    <section className="hero-section relative text-white overflow-hidden py-20" id="hero_section">
+    <section className="hero-section relative text-white overflow-hidden pt-20 pb-5" id="hero_section">
+      {/* Background Gradient */}
+      <div className="half-circle h-[250px] w-[500px] rounded-t-full left-0 mx-auto bg-main/20 absolute -bottom-20 blur-3xl z-[-1] right-0"></div>
       <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 mx-auto hidden h-full w-full object-cover opacity-15 md:block" />
       <div className="via-icon-bg/30 absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-transparent to-transparent"></div>
       <div className="relative container flex flex-col-reverse items-center justify-between gap-4 overflow-hidden py-10 md:flex-row lg:min-h-[550px]">

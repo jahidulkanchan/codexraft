@@ -4,10 +4,8 @@ import { FiArrowUpRight } from 'react-icons/fi';
 const AboutUs = () => {
   return (
     <section className="about-us overflow-hidden relative py-8 md:py-20">
-      {/* Background Gradient */}
-      <div className="half-circle h-[250px] w-[500px] rounded-t-full left-0 mx-auto bg-main/20 absolute -bottom-28 blur-3xl z-[-1] right-0"></div>
       <div className="container mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 px-4 md:flex-row">
-        {/* Left Content (Text) */}
+        {/* Left Content */}
         <div data-aos="fade-right" className="left-content w-full md:w-1/2">
           <h2 className="from-icon-bg to-main mb-4 bg-gradient-to-r bg-clip-text text-3xl font-medium text-transparent md:text-4xl lg:font-semibold">Who We Are</h2>
           <p className="mb-4 text-lg text-light-gray">
@@ -25,8 +23,10 @@ const AboutUs = () => {
           </a>
         </div>
 
-        {/* Right Content (Image) */}
-        <div data-aos="fade-left" className="right-content w-full  md:w-1/2">
+        {/* Right Content */}
+        <div data-aos="fade-left" className="right-content w-full relative md:w-1/2">
+          {/* Background card */}
+          <div className="bg-card absolute w-full h-full -left-5 top-5 bg-main rounded-xl"></div>
           <img src="./assets/about-us.jpg" alt="About Us" className="w-full rounded-xl object-cover shadow-lg grayscale" />
         </div>
       </div>
