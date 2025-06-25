@@ -73,3 +73,6 @@
     @apply from-light-blue to-main bg-gradient-to-l;
   }
 }
+@layer utilities{
+  
+}
