@@ -17,17 +17,17 @@ const ContactPage = () => {
             <div className="address mt-5 mb-5">
               <ul className="text-light-gray space-y-3 md:text-lg">
                 <li className="flex items-start">
-                  <FiMail className="text-icon-bg mt-0.5 mr-2 h-5 w-5" />
+                  <FiMail className="text-main mt-0.5 mr-2 h-5 w-5" />
                   <a href="mailto:contact@codexraft.dev" className="hover:underline">
                     contact@codexraft.dev
                   </a>
                 </li>
                 <li className="flex items-start">
-                  <FiPhone className="text-icon-bg mt-0.5 mr-2 h-5 w-5" />
+                  <FiPhone className="text-main mt-0.5 mr-2 h-5 w-5" />
                   <span>+880 1234-567890</span>
                 </li>
                 <li className="flex items-start">
-                  <FiMapPin className="text-icon-bg mt-0.5 mr-2 h-7 w-5" />
+                  <FiMapPin className="text-main mt-0.5 mr-2 h-7 w-5" />
                   <span>42 Dev Street, CodeTown, BD 4567</span>
                 </li>
               </ul>

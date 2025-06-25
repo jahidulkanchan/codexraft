@@ -42,7 +42,7 @@ const Banner = () => {
               </Link>
               <Link
                 to="/services"
-                className="border-light-gray/20 from-card-bg to-main/20 text-light-gray flex w-fit items-center gap-1 rounded border bg-gradient-to-l px-2 sm:px-5 py-2.5 backdrop-blur-md transition duration-150 hover:text-white">
+                className="from-card-bg to-main/30 text-light-gray flex w-fit border border-main/10 border-r-0 items-center gap-1 rounded  bg-gradient-to-l px-2 sm:px-5 py-2.5 transition duration-150 hover:text-white">
                 Services
                 <span className="">
                   <FiChevronsRight size={20} className="transition" />

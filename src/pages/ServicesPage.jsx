@@ -9,7 +9,7 @@ import services04 from '../assets/services-04.jpg';
 const ServicesPage = () => {
   return (
     <>
-      <section data-aos="fade-In" className="hero-section text-white relative py-14" id="hero_section">
+      <section data-aos="fade-In" className="hero-section text-white relative pt-10" id="hero_section">
         {/* Decorative Grid Image */}
         <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 mx-auto hidden h-full w-full object-cover opacity-15 md:block" />
 
@@ -48,7 +48,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </section>
-      <section className="services-items from-dark-bg to-dark-bg bg-gradient-to-r py-16 text-white overflow-hidden">
+      <section className="services-items from-dark-bg to-dark-bg bg-gradient-to-r py-10 text-white overflow-hidden">
         <div data-aos="fade-up" className="heading-title relative mx-auto mb-12 text-center">
           <h2 className="from-light-blue text-3xl sm:text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
             <span className="text-white">Transform Your Digital Presence </span>With Our Comprehensive Services
