@@ -11,7 +11,7 @@ const Banner = () => {
 
       {/* Decorative Grid Image */}
       <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 hidden h-full w-full object-cover opacity-15 md:block" />
-      <div className="container">
+      <div data-aos="fade-In" className="container">
         <div className="relative mx-auto flex w-full max-w-[1440px] flex-col-reverse items-center justify-between gap-4  py-10 md:flex-row lg:min-h-[550px]">
           <div className="left-content w-full">
             {/* Badge */}

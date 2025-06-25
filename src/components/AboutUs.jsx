@@ -6,7 +6,7 @@ const AboutUs = () => {
     <section className="about-us overflow-hidden relative text-white py-8 md:py-20">
       <div className="container mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 px-4 md:flex-row">
         {/* Left Content */}
-        <div className="left-content w-full md:w-1/2">
+        <div data-aos="fade-right" className="left-content w-full md:w-1/2">
           <h2 className="from-light-blue to-main mb-4 bg-gradient-to-l bg-clip-text text-3xl font-medium text-transparent md:text-4xl lg:font-semibold">Who We Are</h2>
           <p className="mb-4 text-lg text-light-gray">
             We are a creative digital agency helping businesses grow through innovative digital marketing, modern web design, and eye-catching graphics. Our team is passionate about delivering quality
@@ -24,14 +24,13 @@ const AboutUs = () => {
         </div>
 
         {/* Right Content */}
-        <div className="right-content w-full relative md:w-1/2">
+        <div data-aos="fade-left" className="right-content w-full relative md:w-1/2">
           {/* Background card */}
           <div className="bg-card absolute w-full h-full -left-5 top-5 bg-main rounded-xl"></div>
           <img src="./assets/about-us.jpg" alt="About Us" className="w-full rounded-xl object-cover shadow-lg grayscale" />
         </div>
       </div>
     </section>
-    
   );
 };
 

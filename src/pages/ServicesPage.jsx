@@ -9,7 +9,7 @@ import services04 from '../assets/services-04.jpg';
 const ServicesPage = () => {
   return (
     <>
-      <section className="hero-section text-white relative py-14" id="hero_section">
+      <section data-aos="fade-In" className="hero-section text-white relative py-14" id="hero_section">
         {/* Decorative Grid Image */}
         <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 mx-auto hidden h-full w-full object-cover opacity-15 md:block" />
 
@@ -49,8 +49,8 @@ const ServicesPage = () => {
         </div>
       </section>
       <section className="services-items from-dark-bg to-dark-bg bg-gradient-to-r py-16 text-white overflow-hidden">
-        <div className="heading-title relative mx-auto mb-12 text-center">
-          <h2 className="from-light-blue text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
+        <div data-aos="fade-up" className="heading-title relative mx-auto mb-12 text-center">
+          <h2 className="from-light-blue text-3xl sm:text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
             <span className="text-white">Transform Your Digital Presence </span>With Our Comprehensive Services
           </h2>
           <p className="text-light-gray mx-auto mt-4 max-w-3xl text-sm md:text-base">
@@ -60,10 +60,10 @@ const ServicesPage = () => {
         <div className="container px-4 mx-auto">
           {/* Web Design & Development */}
           <div className="web-services flex flex-col items-center gap-10 md:flex-row">
-            <div className="left-content w-full md:w-1/2">
+            <div data-aos="fade-right" className="left-content w-full md:w-1/2">
               <img src={services01} alt="Web Development Services" className="w-full rounded-lg grayscale" />
             </div>
-            <div className="right-content w-full md:w-1/2">
+            <div data-aos="fade-left" className="right-content w-full md:w-1/2">
               <h2 className="mb-4 text-3xl font-bold md:text-4xl">Web Development Services</h2>
               <p className="mb-6 text-lg leading-relaxed">
                 We build custom, high-performance websites and web applications using modern technologies. Our solutions are optimized for speed, security, and scalability to help your business grow
@@ -91,7 +91,7 @@ const ServicesPage = () => {
 
           {/* Mobile App Development */}
           <div className="graphics-services my-20 flex flex-col-reverse items-center gap-10 md:flex-row">
-            <div className="left-content w-full md:w-1/2">
+            <div data-aos="fade-right" className="left-content w-full md:w-1/2">
               <h2 className="mb-4 text-3xl font-bold md:text-4xl">Mobile App Development</h2>
               <p className="mb-6 text-lg leading-relaxed">
                 We create native and cross-platform mobile applications that deliver exceptional user experiences. Our apps are built for performance, engagement, and business growth.
@@ -114,17 +114,17 @@ const ServicesPage = () => {
                 </li>
               </ul>
             </div>
-            <div className="right-content w-full md:w-1/2">
+            <div data-aos="fade-left" className="right-content w-full md:w-1/2">
               <img src={services02} alt="Mobile App Development" className="w-full rounded-lg grayscale" />
             </div>
           </div>
 
           {/* UI/UX Design */}
           <div className="digital-marketing-services flex flex-col items-center gap-10 md:flex-row">
-            <div  className="left-content w-full md:w-1/2">
+            <div data-aos='fade-right'  className="left-content w-full md:w-1/2">
               <img src={services03} alt="UI/UX Design Services" className="w-full rounded-lg shadow-lg grayscale" />
             </div>
-            <div className="right-content w-full md:w-1/2">
+            <div data-aos='fade-left'  className="right-content w-full md:w-1/2">
               <h2 className="mb-4 text-3xl font-bold md:text-4xl">UI/UX Design Services</h2>
               <p className="mb-6 text-lg leading-relaxed">
                 Our user-centered design approach creates intuitive interfaces that drive engagement and conversions. We combine aesthetics with functionality for exceptional digital experiences.
@@ -150,7 +150,7 @@ const ServicesPage = () => {
           </div>
           {/* WordPress Development */}
           <div className="wordpress-services mt-20 flex flex-col-reverse items-center gap-10 md:flex-row">
-            <div className="left-content w-full md:w-1/2">
+            <div data-aos='fade-right'  className="left-content w-full md:w-1/2">
               <h2 className="mb-4 text-3xl font-bold md:text-4xl">WordPress Development Solutions</h2>
               <p className="mb-6 text-lg leading-relaxed">
                 We build powerful, scalable WordPress websites that combine beautiful design with robust functionality. Our expert developers create custom solutions tailored to your business needs.
@@ -173,7 +173,7 @@ const ServicesPage = () => {
                 </li>
               </ul>
             </div>
-            <div className="right-content w-full md:w-1/2">
+            <div data-aos='fade-left'  className="right-content w-full md:w-1/2">
               <img src={services04} alt="WordPress Development Services" className="w-full rounded-lg shadow-lg grayscale" />
             </div>
           </div>

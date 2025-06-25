@@ -2,7 +2,7 @@ const GrowSection = () => {
   return (
     <section className="grow-section relative text-white pt-10">
       <div className="container lg:w-[1100px]">
-        <div className="from-card-bg relative border border-light-gray/10 border-b-0 flex flex-col items-center justify-center space-y-2 rounded-lg bg-gradient-to-b to-transparent px-1 py-5 text-center sm:py-8 md:px-3 md:py-14">
+        <div data-aos='fade-In' className="from-card-bg relative border border-light-gray/10 border-b-0 flex flex-col items-center justify-center space-y-2 rounded-lg bg-gradient-to-b to-transparent px-1 py-5 text-center sm:py-8 md:px-3 md:py-14">
           {/* ============== gradient border =========== */}
           <div className="via-icon-bg/30 absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent to-transparent"></div>
 

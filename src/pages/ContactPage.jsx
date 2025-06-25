@@ -11,7 +11,7 @@ const ContactPage = () => {
         <br />
 
         <div className="contact-content flex flex-col justify-between gap-3 lg:flex-row">
-          <div className="left-content mx-auto max-w-[600px]">
+          <div data-aos="fade-right" className="left-content mx-auto max-w-[600px]">
             <h2 className="from-light-blue to-main w-fit bg-gradient-to-l bg-clip-text text-left text-3xl md:text-5xl font-medium text-transparent lg:mt-0">Ask whatever you have in your mind</h2>
             <p className="text-light-gray mt-2 text-lg md:text-xl">Whether you have questions or want to discuss your next project, we’re here to help. Reach out to CodexRaft today.</p>
             <div className="address mt-5 mb-5">
@@ -34,7 +34,7 @@ const ContactPage = () => {
             </div>
           </div>
 
-          <div className="right-content sm:mx-auto">
+          <div data-aos="fade-left" className="right-content sm:mx-auto">
             <form className="w-full space-y-6 sm:w-[450px] md:w-[600px]">
               <div>
                 <label htmlFor="name" className="text-light-gray mb-1 block text-lg font-medium">
