@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         'dark-bg': '#02030b',
-        'card-bg': '#06071b',
+        'card-bg': '#030a0d',
         'dark-blue': '#001d26',
         'main': '#66a4d4',
         'light-blue': '#3670cf',

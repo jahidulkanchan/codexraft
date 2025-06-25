@@ -33,9 +33,9 @@ const services = [
 ];
 
 const ProvidedServices = () => {
-  return ( 
+  return (
     <section className="services-section py-12" id="provided_services">
-      <div className="container px-4">
+      <div className="container">
         <div className="heading-title relative mx-auto mb-12 text-center">
           <h2 className="from-icon-bg text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
             <span className="text-white">Elevate Your Brand </span>with Our Expert Solutions
@@ -49,8 +49,9 @@ const ProvidedServices = () => {
           {/* Mobile Layout */}
           <div className="flex flex-col gap-8 md:hidden">
             {services.map((service, index) => (
-              <div key={index} data-aos="fade-up" className="card border-icon-bg/30 bg-card-bg min-h-[300px] relative overflow-hidden rounded-lg border px-2.5 py-5">
-                <div className="bg-main/50 absolute -top-10 -right-10 h-[100px] w-[100px] blur-2xl"></div>
+              <div key={index} data-aos="fade-up" className="card border-icon-bg/30 min-h-[300px] relative overflow-hidden rounded-lg border px-2.5 py-5">
+                {/* Background Gradient */}
+                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/40 z-[-1]"></div>
                 <div className="flex items-center gap-4">
                   <div className="border-light-gray/20 flex h-[50px] w-[50px] items-center justify-center rounded-md border">{service.icon}</div>
                   <h2 className="text-xl font-bold">{service.title}</h2>
@@ -67,16 +68,11 @@ const ProvidedServices = () => {
               </div>
             ))}
           </div>
-
           <div className="hidden md:grid gap-10 md:grid-cols-2">
             <div className="absolute left-1/2 top-0 h-full -translate-x-1/2">
-              <div className="bg-main relative h-full w-0.5">
+              <div className="via-icon-bg/30 bg-gradient-to-t from-transparent to-transparent relative h-full w-0.5">
                 {services.map((service, index) => (
-                  <div
-                    key={index}
-                    className="absolute left-1/2 -translate-x-1/2"
-                    style={{ top: `${index * 25 + 12.5}%` }}
-                  >
+                  <div key={index} className="absolute left-1/2 -translate-x-1/2" style={{ top: `${index * 25 + 12.5}%` }}>
                     <div className="border-icon-bg/30 bg-card-bg flex h-12 w-12 items-center justify-center rounded-full border-2">{service.icon}</div>
                   </div>
                 ))}
@@ -87,9 +83,10 @@ const ProvidedServices = () => {
               <div
                 key={index}
                 data-aos="fade-up"
-                className={`card border-icon-bg/30 bg-card-bg relative min-h-[350px] overflow-hidden rounded-xl px-3 border py-5 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
+                className={`card border-icon-bg/30  relative min-h-[350px] overflow-hidden rounded-xl px-3 border py-5 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
                 style={{ width: '90%' }}>
-                <div className="bg-main/50 absolute -top-10 -right-10 h-[100px] w-[100px] blur-2xl"></div>
+                {/* Background Gradient */}
+                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/40 z-[-1]"></div>
                 <h2 className="text-2xl font-bold">{service.title}</h2>
                 <p className="text-light-gray pt-4 text-lg">{service.description}</p>
                 <div className="mt-6 flex flex-wrap items-center gap-3">
