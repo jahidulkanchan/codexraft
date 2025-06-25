@@ -3,7 +3,7 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 const AboutUs = () => {
   return (
-    <section className="about-us overflow-hidden relative py-8 md:py-20">
+    <section className="about-us overflow-hidden relative text-white py-8 md:py-20">
       <div className="container mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 px-4 md:flex-row">
         {/* Left Content */}
         <div data-aos="fade-right" className="left-content w-full md:w-1/2">

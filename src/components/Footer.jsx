@@ -32,9 +32,9 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <FiMapPin className="text-icon-bg mt-0.5 mr-2 h-5 w-5" />, text: '123 Digital Lane, Tech City, 10101' },
-    { icon: <FiPhone className="text-icon-bg mt-0.5 mr-2 h-5 w-5" />, text: '+1 (555) 123-4567' },
-    { icon: <FiMail className="text-icon-bg mt-0.5 mr-2 h-5 w-5" />, text: 'hello@codexdigital.com', isEmail: true },
+    { icon: <FiMapPin className="text-main mt-0.5 mr-2 h-5 w-5" />, text: '123 Digital Lane, Tech City, 10101' },
+    { icon: <FiPhone className="text-main mt-0.5 mr-2 h-5 w-5" />, text: '+1 (555) 123-4567' },
+    { icon: <FiMail className="text-main mt-0.5 mr-2 h-5 w-5" />, text: 'hello@codexdigital.com', isEmail: true },
   ];
 
   return (
@@ -57,7 +57,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={social.url}
-                  className="text-icon-bg hover:text-white transition-all duration-300 hover:-translate-y-1"
+                  className="text-main hover:text-white transition-all duration-300 hover:-translate-y-1"
                   aria-label={`Visit our ${social.label} page`}>
                   {social.icon}
                 </a>
@@ -124,7 +124,7 @@ const Footer = () => {
           <div className="via-icon-bg/30 absolute inset-x-0 top-4 h-[1px] bg-gradient-to-r from-transparent to-transparent"></div>
           <p className="text-light-gray text-sm pt-4">
             © {companyInfo.year} 
-            <Link className="text-icon-bg inline-block transition-colors px-2 duration-150 hover:text-white" to="/">
+            <Link className="text-main inline-block transition-colors px-2 duration-150 hover:text-white" to="/">
                {companyInfo.name}.
             </Link> 
             All rights reserved.
