@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Mainlayout from "../layouts/Mainlayout";
 import Home from "../pages/Home";
 import errorPage from '../assets/404-Page.png'
-import DetailsPage from "../pages/DetailsPage";
 import ContactPage from "../pages/ContactPage";
 import ServicesPage from "../pages/ServicesPage";
 
@@ -22,11 +21,6 @@ export const router = createBrowserRouter([
       {
         path: '/services',
         element: <ServicesPage />,
-      },
-      {
-        path: '/project/:id',
-        element: <DetailsPage />,
-        loader: () => fetch('/projects.json'),
       },
     ],
     errorElement: (
