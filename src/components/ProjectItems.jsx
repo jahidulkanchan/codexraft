@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiLayout, FiPenTool, FiCode, FiMonitor } from 'react-icons/fi';
+import { FiLayout, FiCode, FiMonitor, FiSmartphone } from 'react-icons/fi';
 
 const ProjectItems = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -26,19 +26,9 @@ const ProjectItems = () => {
       image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
       icon: <FiCode className="text-blue-500" />,
     },
-    {
-      id: 3,
-      category: 'web',
-      title: 'Web Application',
-      description: 'Custom SaaS solution with user dashboard',
-      tag: 'Web Development',
-      tagColor: 'bg-blue-100 text-blue-800',
-      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-      icon: <FiCode className="text-blue-500" />,
-    },
     // WordPress Development Projects
     {
-      id: 10,
+      id: 3,
       category: 'wordpress',
       title: 'WordPress Blog',
       description: 'Custom theme development for professional blog',
@@ -48,17 +38,7 @@ const ProjectItems = () => {
       icon: <FiMonitor className="text-green-500" />,
     },
     {
-      id: 11,
-      category: 'wordpress',
-      title: 'WooCommerce Store',
-      description: 'E-commerce solution with custom plugins',
-      tag: 'WordPress Development',
-      tagColor: 'bg-green-100 text-green-800',
-      image: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-      icon: <FiMonitor className="text-green-500" />,
-    },
-    {
-      id: 12,
+      id: 4,
       category: 'wordpress',
       title: 'Corporate WordPress Site',
       description: 'Custom theme with advanced admin panel',
@@ -69,7 +49,7 @@ const ProjectItems = () => {
     },
     // UX/UI Design Projects
     {
-      id: 4,
+      id: 5,
       category: 'uxui',
       title: 'Mobile App UI',
       description: 'User interface design for fitness tracking application',
@@ -79,7 +59,7 @@ const ProjectItems = () => {
       icon: <FiLayout className="text-purple-500" />,
     },
     {
-      id: 5,
+      id: 6,
       category: 'uxui',
       title: 'Website Redesign',
       description: 'Complete UX overhaul for improved conversion rates',
@@ -88,46 +68,26 @@ const ProjectItems = () => {
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
       icon: <FiLayout className="text-purple-500" />,
     },
-    {
-      id: 6,
-      category: 'uxui',
-      title: 'Design System',
-      description: 'Comprehensive UI component library and style guide',
-      tag: 'UX/UI Design',
-      tagColor: 'bg-purple-100 text-purple-800',
-      image: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-      icon: <FiLayout className="text-purple-500" />,
-    },
-    // Graphics Design Projects
+    // App Development Projects
     {
       id: 7,
-      category: 'graphics',
-      title: 'Brand Identity',
-      description: 'Complete visual identity package for startup',
-      tag: 'Graphics Design',
-      tagColor: 'bg-yellow-100 text-yellow-800',
-      image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-      icon: <FiPenTool className="text-yellow-500" />,
+      category: 'app',
+      title: 'Fitness Tracker App',
+      description: 'Cross-platform mobile application with health integrations',
+      tag: 'App Development',
+      tagColor: 'bg-red-100 text-red-800',
+      image: 'https://images.unsplash.com/photo-1518604666860-9ed391f76460?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      icon: <FiSmartphone className="text-red-500" />,
     },
     {
       id: 8,
-      category: 'graphics',
-      title: 'Marketing Materials',
-      description: 'Brochures, flyers and business cards suite',
-      tag: 'Graphics Design',
-      tagColor: 'bg-yellow-100 text-yellow-800',
-      image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-      icon: <FiPenTool className="text-yellow-500" />,
-    },
-    {
-      id: 9,
-      category: 'graphics',
-      title: 'Social Media Graphics',
-      description: 'Complete set of branded social media assets',
-      tag: 'Graphics Design',
-      tagColor: 'bg-yellow-100 text-yellow-800',
-      image: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
-      icon: <FiPenTool className="text-yellow-500" />,
+      category: 'app',
+      title: 'E-Commerce Mobile App',
+      description: 'Native iOS and Android shopping application',
+      tag: 'App Development',
+      tagColor: 'bg-red-100 text-red-800',
+      image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1367&q=80',
+      icon: <FiSmartphone className="text-red-500" />,
     },
   ];
 
@@ -135,7 +95,15 @@ const ProjectItems = () => {
 
   return (
     <section className="project-showcase py-12">
-      <div className="container mx-auto min-h-[300px] px-4">
+      <div className="container min-h-[300px]">
+        <div className="heading-title relative mx-auto mb-12 text-center">
+          <h2 className="from-icon-bg text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
+            <span className="text-white">Explore Our </span>Project Portfolio
+          </h2>
+          <p className="text-light-gray mx-auto mt-4 max-w-3xl text-sm md:text-base">
+            Discover our diverse range of successful projects — from web development to creative design solutions. Each project reflects our commitment to quality, innovation, and client satisfaction.
+          </p>
+        </div>
         {/* Filter Buttons */}
         <div className="mb-12 flex flex-wrap justify-center gap-3">
           <button
@@ -172,10 +140,10 @@ const ProjectItems = () => {
 
           <button
             className={`filter-btn border-icon-bg/30 rounded border px-3 md:px-5 py-2 font-medium transition-all duration-150 flex items-center gap-2 ${
-              activeFilter === 'graphics' ? 'blue-gradient text-white' : 'bg-card-bg text-light-gray hover:bg-light-blue hover:text-white'
+              activeFilter === 'app' ? 'blue-gradient text-white' : 'bg-card-bg text-light-gray hover:bg-light-blue hover:text-white'
             }`}
-            onClick={() => setActiveFilter('graphics')}>
-            <FiPenTool /> Graphics Design
+            onClick={() => setActiveFilter('app')}>
+            <FiSmartphone /> App Development
           </button>
         </div>
 
