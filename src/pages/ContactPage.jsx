@@ -12,7 +12,7 @@ const ContactPage = () => {
 
         <div className="contact-content flex flex-col justify-between gap-3 lg:flex-row">
           <div className="left-content mx-auto max-w-[600px]">
-            <h2 className="from-icon-bg to-main w-fit bg-gradient-to-r bg-clip-text text-left text-3xl md:text-5xl font-medium text-transparent lg:mt-0">Ask whatever you have in your mind</h2>
+            <h2 className="from-light-blue to-main w-fit bg-gradient-to-l bg-clip-text text-left text-3xl md:text-5xl font-medium text-transparent lg:mt-0">Ask whatever you have in your mind</h2>
             <p className="text-light-gray mt-2 text-lg md:text-xl">Whether you have questions or want to discuss your next project, we’re here to help. Reach out to CodexRaft today.</p>
             <div className="address mt-5 mb-5">
               <ul className="text-light-gray space-y-3 md:text-lg">
