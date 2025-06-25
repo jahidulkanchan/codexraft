@@ -33,7 +33,7 @@ const services = [
 ];
 
 const ProvidedServices = () => {
-  return (
+  return ( 
     <section className="services-section py-12" id="provided_services">
       <div className="container px-4">
         <div className="heading-title relative mx-auto mb-12 text-center">
