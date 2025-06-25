@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <section id="contact_section" className="contact-section relative min-h-[350px] overflow-hidden py-10">
       <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 mx-auto hidden h-full w-full object-cover opacity-15 md:block" />
-      <div className="relative container px-3">
+      <div className="relative container px-3 text-white">
         <div className="heading-title relative mx-auto text-center text-2xl md:text-3xl lg:mb-8 lg:text-4xl">
           <p className="text-light-gray border-icon-bg/30 from-card-bg to-card-bg mx-auto w-fit rounded-3xl border bg-gradient-to-r px-5 py-1.5 text-xs uppercase md:mb-5">Contact</p>
         </div>
