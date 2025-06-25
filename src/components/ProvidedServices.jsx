@@ -37,7 +37,7 @@ const ProvidedServices = () => {
     <section className="services-section py-12" id="provided_services">
       <div className="container">
         <div className="heading-title relative mx-auto mb-12 text-center">
-          <h2 className="from-light-blue text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
+          <h2 className="from-light-blue text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-l bg-clip-text font-medium text-transparent">
             <span className="text-white">Elevate Your Brand </span>with Our Expert Solutions
           </h2>
           <p className="text-light-gray mx-auto mt-4 max-w-3xl text-sm md:text-base">

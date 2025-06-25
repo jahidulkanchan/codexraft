@@ -50,7 +50,7 @@ const FaqSection = () => {
 
         <div className="heading-title relative mx-auto mb-8 text-center text-2xl md:text-3xl lg:text-4xl">
           <p className="text-light-gray border-icon-bg/30 from-card-bg to-card-bg mx-auto mb-5 w-fit rounded-3xl border bg-gradient-to-r px-5 py-1.5 text-xs uppercase">FREQUENTLY ASKED</p>
-          <h2 className="from-icon-bg to-main mx-auto w-fit bg-gradient-to-r bg-clip-text font-medium text-transparent">Your Questions, Our Expert Solutions</h2>
+          <h2 className="from-icon-bg to-main mx-auto w-fit bg-gradient-to-l bg-clip-text font-medium text-transparent">Your Questions, Our Expert Solutions</h2>
         </div>
 
         {/* FAQ Accordion */}

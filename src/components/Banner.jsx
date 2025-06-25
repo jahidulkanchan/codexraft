@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="relative mx-auto flex w-full max-w-[1440px] flex-col-reverse items-center justify-between gap-4  py-10 md:flex-row lg:min-h-[550px]">
           <div className="left-content w-full">
             {/* Badge */}
-            <div className="border-icon-bg/30 to-main/20 from-card-bg relative mx-auto mb-3 flex w-fit items-center gap-2 overflow-hidden rounded-lg border bg-gradient-to-r px-4 py-2">
+            <div className="border-icon-bg/30 to-main/20 from-card-bg relative mx-auto mb-3 flex w-fit items-center gap-2 overflow-hidden rounded-lg border bg-gradient-to-l px-4 py-2">
               <div className="blaze bg-icon-bg/40 absolute -top-10 -left-10 h-30 w-10 rotate-45 blur-xl"></div>
               <MdRocketLaunch className="text-main" size={20} />
               <span className="relative text-sm sm:text-base text-light-gray">Build Smart. Launch Fast. Scale Better.</span>
@@ -25,7 +25,7 @@ const Banner = () => {
             <h1 className="text-center text-3xl sm:text-4xl font-bold leading-tight text-white lg:text-6xl">
               Building Digital Products,
               <br />
-              <span className="from-icon-bg to-main bg-gradient-to-r bg-clip-text text-transparent">Designed to Perform</span>
+              <span className="from-icon-bg to-main bg-gradient-to-l bg-clip-text text-transparent">Designed to Perform</span>
             </h1>
 
             {/* Paragraph */}
@@ -42,7 +42,7 @@ const Banner = () => {
               </Link>
               <Link
                 to="/services"
-                className="border-light-gray/20 from-card-bg to-main/20 text-light-gray flex w-fit items-center gap-1 rounded border bg-gradient-to-r px-2 sm:px-5 py-2.5 backdrop-blur-md transition duration-150 hover:text-white">
+                className="border-light-gray/20 from-card-bg to-main/20 text-light-gray flex w-fit items-center gap-1 rounded border bg-gradient-to-l px-2 sm:px-5 py-2.5 backdrop-blur-md transition duration-150 hover:text-white">
                 Services
                 <span className="">
                   <FiChevronsRight size={20} className="transition" />

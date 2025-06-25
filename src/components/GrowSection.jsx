@@ -8,7 +8,7 @@ const GrowSection = () => {
 
           <div className="space-y-2">
             <p className="text-light-gray text-sm">Get Started</p>
-            <h2 className="from-icon-bg to-main mx-auto w-fit bg-gradient-to-r bg-clip-text text-2xl font-medium text-transparent sm:text-3xl md:text-4xl">Ready to Grow?</h2>
+            <h2 className="from-icon-bg to-main mx-auto w-fit bg-gradient-to-l bg-clip-text text-2xl font-medium text-transparent sm:text-3xl md:text-4xl">Ready to Grow?</h2>
             <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl">Let&apos;s Build Something That Works.</h1>
             <p className="text-light-gray mx-auto mt-3 max-w-full lg:max-w-2/3">Unsure which service you need? Book a free meeting and see how we can boost your sales and brand.</p>
           </div>

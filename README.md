@@ -1,24 +1,38 @@
-# Project Portfolio Website
+# CodexRaft — Project Portfolio Website
 
-<!-- ![Project Showcase Screenshot](https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80) -->
+[Live Demo](https://codexraft.netlify.app) | [GitHub Repository](https://github.com/jahidulkanchan/codexraft)
 
-A modern, responsive portfolio showcase built with React and Tailwind CSS that displays projects across different categories with filtering capabilities.
+---
+
+A modern, responsive portfolio website built with React and Tailwind CSS that showcases projects across multiple categories with intuitive filtering. Perfect for developers, designers, and creatives to present their work in a clean, interactive way.
+
+---
 
 ## Features
 
-- 🏷️ **Category Filtering**: Filter projects by Web Development, WordPress, UX/UI Design, or App Development
-- 🎨 **Visual Tags**: Color-coded project categories for easy identification
-- ✨ **Interactive Elements**: Hover animations and smooth transitions
-- 📱 **Fully Responsive**: Works on all device sizes
-- 🖼️ **Project Showcase**: Clean card layout with images and descriptions
-- 🌈 **Gradient Accents**: Modern design with gradient text effects
+- 🏷️ **Category Filtering**  
+  Easily filter projects by categories such as Web Development, WordPress, UX/UI Design, and App Development to quickly find relevant work.
+
+- 🎨 **Color-Coded Tags**  
+  Each project category is visually distinguished with color-coded tags for better UX.
+
+- ✨ **Smooth Interactions**  
+  Includes hover animations and smooth transitions to enhance user engagement.
+
+- 📱 **Fully Responsive**  
+  Optimized for all screen sizes — works seamlessly on mobile, tablet, and desktop devices.
+
+- 🖼️ **Project Showcase Cards**  
+  Clean card layout displaying project images, titles, and brief descriptions for quick browsing.
+
+- 🌈 **Modern Gradient Accents**  
+  Stylish gradient text and accents that add a contemporary feel to the design.
+
+---
 
 ## Technologies Used
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- ✨ React Icons (Feather Icons)
-- 🚀 Vite (for development)
-
-## Project Structure
-
+- ⚛️ **React.js** — Frontend UI library for building fast and reactive user interfaces  
+- 🎨 **Tailwind CSS** — Utility-first CSS framework for rapid styling and responsive design  
+- ✨ **React Icons** — For crisp, lightweight iconography  
+- 🚀 **Vite** — Lightning-fast development server and build tool
