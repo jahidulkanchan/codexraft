@@ -49,11 +49,11 @@ const ProvidedServices = () => {
           {/* Mobile Layout */}
           <div className="flex flex-col gap-8 md:hidden">
             {services.map((service, index) => (
-              <div key={index} data-aos="fade-up" className="card border-icon-bg/30 min-h-[300px] relative overflow-hidden rounded-lg border px-2.5 py-5">
+              <div key={index} data-aos="fade-up" className="card border-icon-bg/20 min-h-[300px] relative overflow-hidden rounded-lg border px-2.5 py-5">
                 {/* Background Gradient */}
-                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/40 z-[-1]"></div>
+                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/20 z-[-1]"></div>
                 <div className="flex items-center gap-4">
-                  <div className="border-light-gray/20 flex h-[50px] w-[50px] items-center justify-center rounded-md border">{service.icon}</div>
+                  <div className="border-light-gray/30 flex h-[50px] w-[50px] items-center justify-center rounded-md border">{service.icon}</div>
                   <h2 className="text-xl font-bold">{service.title}</h2>
                 </div>
                 <p className="text-light-gray pt-4 text-sm">{service.description}</p>
@@ -86,7 +86,7 @@ const ProvidedServices = () => {
                 className={`card border-icon-bg/30  relative min-h-[350px] overflow-hidden rounded-xl px-3 border py-5 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
                 style={{ width: '90%' }}>
                 {/* Background Gradient */}
-                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/40 z-[-1]"></div>
+                <div className="half-circle absolute left-0 -bottom-24 right-0 mx-auto h-[200px] blur-3xl w-[350px] rounded-t-full bg-main/20 z-[-1]"></div>
                 <h2 className="text-2xl font-bold">{service.title}</h2>
                 <p className="text-light-gray pt-4 text-lg">{service.description}</p>
                 <div className="mt-6 flex flex-wrap items-center gap-3">
