@@ -18,7 +18,7 @@ const Banner = () => {
           <div className="border-icon-bg/30 to-main/20 from-card-bg relative mx-auto mb-3 flex w-fit items-center gap-2 overflow-hidden rounded-lg border bg-gradient-to-r px-4 py-2">
             <div className="blaze bg-icon-bg/40 absolute -top-10 -left-10 h-30 w-10 rotate-45 blur-xl"></div>
             <MdRocketLaunch className="text-main" size={20} />
-            <span className="relative md:font-medium">Build Smart. Launch Fast. Scale Better.</span>
+            <span className="relative">Build Smart. Launch Fast. Scale Better.</span>
           </div>
 
           {/* Heading */}
