@@ -1,8 +1,24 @@
-# React + Vite
+# Project Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ![Project Showcase Screenshot](https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80) -->
 
-Currently, two official plugins are available:
+A modern, responsive portfolio showcase built with React and Tailwind CSS that displays projects across different categories with filtering capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- 🏷️ **Category Filtering**: Filter projects by Web Development, WordPress, UX/UI Design, or App Development
+- 🎨 **Visual Tags**: Color-coded project categories for easy identification
+- ✨ **Interactive Elements**: Hover animations and smooth transitions
+- 📱 **Fully Responsive**: Works on all device sizes
+- 🖼️ **Project Showcase**: Clean card layout with images and descriptions
+- 🌈 **Gradient Accents**: Modern design with gradient text effects
+
+## Technologies Used
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- ✨ React Icons (Feather Icons)
+- 🚀 Vite (for development)
+
+## Project Structure
+
