@@ -37,7 +37,7 @@ const ProvidedServices = () => {
     <section className="services-section py-12" id="provided_services">
       <div className="container">
         <div className="heading-title relative mx-auto mb-12 text-center">
-          <h2 className="from-icon-bg text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
+          <h2 className="from-light-blue text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
             <span className="text-white">Elevate Your Brand </span>with Our Expert Solutions
           </h2>
           <p className="text-light-gray mx-auto mt-4 max-w-3xl text-sm md:text-base">
@@ -60,7 +60,7 @@ const ProvidedServices = () => {
                 <div className="mt-4 flex flex-wrap items-center gap-2">
                   {service.services.map((item, i) => (
                     <div key={i} className="bg-main/10 border border-icon-bg/30 inline-flex items-center gap-2 rounded px-3 py-1.5">
-                      <span className="bg-icon-bg inline-block h-[5px] w-[5px] rounded-full"></span>
+                      <span className="bg-main inline-block h-[5px] w-[5px] rounded-full"></span>
                       <p className="text-light-gray text-xs capitalize">{item}</p>
                     </div>
                   ))}
@@ -92,7 +92,7 @@ const ProvidedServices = () => {
                 <div className="mt-6 flex flex-wrap items-center gap-3">
                   {service.services.map((item, i) => (
                     <div key={i} className="bg-main/10 border border-icon-bg/30 inline-flex items-center gap-2 rounded-lg px-3 py-1.5">
-                      <span className="bg-icon-bg inline-block h-[6px] w-[6px] rounded-full"></span>
+                      <span className="bg-main inline-block h-[6px] w-[6px] rounded-full"></span>
                       <p className="text-light-gray text-sm capitalize">{item}</p>
                     </div>
                   ))}

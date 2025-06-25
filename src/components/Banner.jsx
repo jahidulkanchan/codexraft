@@ -13,12 +13,12 @@ const Banner = () => {
       <img src="./assets/hero-grid.webp" alt="heroGrid" loading="lazy" className="absolute top-0 right-0 -z-2 hidden h-full w-full object-cover opacity-15 md:block" />
       <div className="container">
         <div className="relative mx-auto flex w-full max-w-[1440px] flex-col-reverse items-center justify-between gap-4  py-10 md:flex-row lg:min-h-[550px]">
-          <div className="left-content w-full" data-aos="fade-in">
+          <div className="left-content w-full">
             {/* Badge */}
             <div className="border-icon-bg/30 to-main/20 from-card-bg relative mx-auto mb-3 flex w-fit items-center gap-2 overflow-hidden rounded-lg border bg-gradient-to-r px-4 py-2">
               <div className="blaze bg-icon-bg/40 absolute -top-10 -left-10 h-30 w-10 rotate-45 blur-xl"></div>
               <MdRocketLaunch className="text-main" size={20} />
-              <span className="relative text-sm sm:text-base">Build Smart. Launch Fast. Scale Better.</span>
+              <span className="relative text-sm sm:text-base text-light-gray">Build Smart. Launch Fast. Scale Better.</span>
             </div>
 
             {/* Heading */}

@@ -24,13 +24,13 @@ const ServicesPage = () => {
               <div className="blaze bg-icon-bg/40 absolute -top-10 -left-10 h-30 w-10 rotate-45 blur-xl"></div>
 
               {/* Icon + Text */}
-              <MdRocketLaunch className="text-icon-bg relative z-10" />
+              <MdRocketLaunch className="text-main relative z-10" />
               <span className="text-light-gray relative z-10">Your Vision, Our Design, Digitalized.</span>
             </div>
 
             {/* Heading */}
             <h1 className="my-4 md:my-6 text-4xl leading-tight font-bold lg:text-6xl">
-              Fusing Creativity With <span className="from-icon-bg to-main bg-gradient-to-r bg-clip-text text-transparent">Marketing & Technology</span> To Drive Business Growth
+              Fusing Creativity With <span className="from-light-blue to-main bg-gradient-to-r bg-clip-text text-transparent">Marketing & Technology</span> To Drive Business Growth
             </h1>
 
             {/* Paragraph */}
@@ -50,7 +50,7 @@ const ServicesPage = () => {
       </section>
       <section className="services-items from-dark-bg to-dark-bg bg-gradient-to-r py-16 text-white overflow-hidden">
         <div className="heading-title relative mx-auto mb-12 text-center">
-          <h2 className="from-icon-bg text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
+          <h2 className="from-light-blue text-4xl md:text-6xl max-w-4xl to-main mx-auto bg-gradient-to-r bg-clip-text font-medium text-transparent">
             <span className="text-white">Transform Your Digital Presence </span>With Our Comprehensive Services
           </h2>
           <p className="text-light-gray mx-auto mt-4 max-w-3xl text-sm md:text-base">
